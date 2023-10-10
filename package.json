@@ -1,0 +1,17 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.1",
+  "description": "A quick and easy way to get started with your React project.",
+  "repository": "https://github.com/STHyeon/react-boilerplate.git",
+  "author": "taehyeon <dulgi@kakao.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.27",
+    "@types/react-dom": "^18.2.12",
+    "typescript": "^5.2.2"
+  }
+}
