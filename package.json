@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --config webpack.config.ts",
-    "build": "cross-env NODE_ENV=production webpack --progress"
+    "build": "cross-env NODE_ENV=production webpack --progress",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
+    "prettier": "prettier-eslint --write $PWD/\"src/**/*.[jt]s?(x)\""
   },
   "dependencies": {
     "dotenv": "^16.3.1",
@@ -22,11 +24,22 @@
     "@types/node": "^20.8.4",
     "@types/react": "^18.2.27",
     "@types/react-dom": "^18.2.12",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/experimental-utils": "^5.62.0",
+    "@typescript-eslint/parser": "^6.7.5",
     "babel-loader": "^9.1.3",
     "cross-env": "^7.0.3",
     "css-loader": "^6.8.1",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "~6.0.0",
+    "eslint-plugin-jsdoc": "^46.8.2",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react-app": "~6.2.2",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.3",
+    "prettier": "^3.0.3",
     "style-loader": "^3.3.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
