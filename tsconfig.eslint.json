@@ -5,6 +5,7 @@
     "src/**/*.jsx",
     "src/**/*.ts",
     "src/**/*.tsx",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "babel.config.js"
   ]
 }
