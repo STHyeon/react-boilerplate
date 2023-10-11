@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const dotenvConfig = require('dotenv');
 const path = require('path');
 const webpack = require('webpack');
@@ -20,7 +21,7 @@ module.exports = {
   mode: isProd ? 'production' : 'development',
   devtool: isProd ? 'hidden-source-map' : 'source-map',
   output: {
-    filename: '[name].js',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'build'),
   },
   resolve: {

@@ -1,15 +1,25 @@
 {
-  "name": "react-boilerplate",
+  "name": "typescript-react-starter",
   "version": "0.0.1",
   "description": "A quick and easy way to get started with your React project.",
   "repository": "https://github.com/STHyeon/react-boilerplate.git",
   "author": "taehyeon <dulgi@kakao.com>",
+  "keywords": [
+    "react",
+    "boilerplate",
+    "typescript",
+    "starter"
+  ],
   "license": "MIT",
+  "bin": {
+    "typescript-react-starter": "./bin/generate-app.js"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --config webpack.config.ts",
     "build": "cross-env NODE_ENV=production webpack --progress",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
-    "prettier": "prettier-eslint --write $PWD/\"src/**/*.[jt]s?(x)\""
+    "prettier": "prettier-eslint --write $PWD/\"src/**/*.[jt]s?(x)\"",
+    "serve": "serve -l 3040 -s ./build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
