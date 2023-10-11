@@ -1,5 +1,5 @@
 {
-  "name": "typescript-react-starter",
+  "name": "create-react-app-starter",
   "version": "0.0.1",
   "description": "A quick and easy way to get started with your React project.",
   "repository": "https://github.com/STHyeon/react-boilerplate.git",
@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "bin": {
-    "typescript-react-starter": "./bin/generate-app.js"
+    "create-react-app-starter": "./bin/generate-app.js"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --config webpack.config.ts",
