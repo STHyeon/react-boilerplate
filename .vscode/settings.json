@@ -1,7 +1,7 @@
 {
   // vscode
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
+    "source.fixAll": true,
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": false,
     "source.fixAll.stylelint": false
@@ -19,6 +19,7 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
+    "JSON"
   ],
 
   // Typescript
