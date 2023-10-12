@@ -42,3 +42,6 @@ $ cd my-app
 $ yarn install
 $ yarn start
 ```
+
+## npx script GitHub Repository
+[Link to GitHub repository](https://github.com/STHyeon/create-react-app-foundation)
